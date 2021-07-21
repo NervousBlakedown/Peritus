@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>About Page</title>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, intial-scale = 1.0">
+    <meta http-equiv = "X-UA-Compatible" content = "ie = edge">
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = 'css/main.css') }}">
+    {% block head %}{% endblock %}
+    <style>
+        h1 {text-align: center}
+        p {text-align: center}
+    </style>
+</head>
+<body>
+    <h1>What is Peritus?</h1>
+    <p>My name is Blake Calhoun.  Thank you for using this app.
+      Being catholic is challenging without a deep knowledge of scripture,
+      thorough understanding of
+      the catechism, or knowing when and where your next confession is located.
+      </p>
+    <p>According to Wikipedia, "Peritus is the title given to Roman Catholic theologians
+      attending an ecumenical council
+      to give advice. At the Second Vatican Council, some periti accompanied
+      individual bishops or groups of bishops from various countries.
+      Others were formally appointed as advisers to the whole Council."
+    </p>
+    <p>I created this site to
+      provide further resources for catholics who desire them.
+      If you have any suggestions, concerns, critiques,
+      or comments that can help make this website any better, please let me know.
+      Thank you for visiting!
+    </p>
+</body>
+</html>
